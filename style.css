@@ -1,6 +1,27 @@
 /* --------------General Formatting-------------- */
+html {}
+
 body {
     background-image: url(./img/guitar_headstocks_bw.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 8em;
+    text-align: center;
+    padding: none;
+    margin: none;
+}
+
+/*--------------Navigation Formatting--------------*/
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
 }
