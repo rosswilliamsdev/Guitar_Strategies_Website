@@ -1,5 +1,11 @@
+/*-----------COLORS------------
+
+Marigold #eba832
+
+
+
+*/
 /* --------------General Formatting-------------- */
-html {}
 
 body {
     background-image: url(./img/guitar_headstocks_bw.jpg);
@@ -9,19 +15,37 @@ body {
 
 h1 {
     font-family: 'Playfair Display SC', serif;
-    font-size: 8em;
+    font-size: 5em;
     text-align: center;
     padding: none;
-    margin: none;
+    margin: .25em;
 }
 
 /*--------------Navigation Formatting--------------*/
 
 nav {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
     display: flex;
     justify-content: space-evenly;
+    margin: .5em auto;
 }
+
+nav a {
+    color: inherit;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
 
 li {
     list-style-type: none;
+    padding: .5em auto;
+}
+
+.book-lessons {
+    text-decoration: underline 2px solid #eba832;
+
 }
