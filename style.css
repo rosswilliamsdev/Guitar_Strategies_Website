@@ -21,6 +21,15 @@ h1 {
     margin: .25em;
 }
 
+h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 /*--------------Navigation Formatting--------------*/
 
 nav {
