@@ -6,13 +6,6 @@ Marigold #eba832
 
 */
 /* --------------General Formatting-------------- */
-
-body {
-    background-image: url(./img/guitar_headstocks_bw.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 h1 {
     font-family: 'Playfair Display SC', serif;
     font-size: 5em;
@@ -29,6 +22,7 @@ h1 a {
 a:visited {
     color: black;
 }
+
 
 /*--------------Navigation Formatting--------------*/
 
@@ -57,4 +51,21 @@ li {
 .book-lessons {
     text-decoration: underline 2px solid #eba832;
 
+}
+
+/*--------------About Formatting-----------------*/
+.about {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.about {
+    font-family: 'Lora', serif;
+    font-size: 1.2em;
+}
+
+h2,
+h3 {
+    font-family: 'playfair display', serif;
 }
