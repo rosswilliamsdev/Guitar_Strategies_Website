@@ -23,6 +23,10 @@ a:visited {
     color: black;
 }
 
+h2,
+h3 {
+    font-family: 'playfair display', serif;
+}
 
 /*--------------Navigation Formatting--------------*/
 
@@ -45,10 +49,9 @@ nav a:hover {
 
 li {
     list-style-type: none;
-    padding: .5em auto;
 }
 
-.book-lessons {
+.book-lessons-nav {
     text-decoration: underline 2px solid #eba832;
 
 }
@@ -72,7 +75,34 @@ li {
     border-radius: 1%;
 }
 
-h2,
-h3 {
-    font-family: 'playfair display', serif;
+
+/*---------------Music Formatting---------------*/
+
+.bandcamp-embeds {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    margin: 2em;
+}
+
+/*--------------------Book Lessons Formatting----------------------*/
+.book-lessons {
+    text-align: center;
+    overflow: hidden;
+}
+
+.book-lessons img {
+    float: right;
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 1%;
+    margin-top: 2%;
+}
+
+.book-lessons li {
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
 }
