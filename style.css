@@ -53,16 +53,23 @@ li {
 
 }
 
-/*--------------About Formatting-----------------*/
-.about {
+/*--------------Mission Statement Formatting-----------------*/
+.mission-statement {
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-}
-
-.about {
     font-family: 'Lora', serif;
     font-size: 1.1em;
+}
+
+.mission-statement img {
+    float: left;
+    margin-right: 20px;
+    margin-left: -15%;
+    margin-top: 1%;
+    width: 65%;
+    height: auto;
+    border-radius: 1%;
 }
 
 h2,
