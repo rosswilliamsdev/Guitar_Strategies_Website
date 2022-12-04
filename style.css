@@ -78,7 +78,8 @@ li {
 
 /*---------------Music Formatting---------------*/
 
-.bandcamp-embeds {
+.bandcamp-embeds,
+.youtube-embeds {
     display: flex;
     justify-content: center;
 }
