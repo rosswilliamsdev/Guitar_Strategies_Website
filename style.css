@@ -28,6 +28,11 @@ h3 {
     font-family: 'playfair display', serif;
 }
 
+
+body {
+    background: #FBFCFC;
+}
+
 /*--------------Navigation Formatting--------------*/
 
 nav {
@@ -52,8 +57,26 @@ li {
 }
 
 .book-lessons-nav {
-    text-decoration: underline 2px solid #eba832;
+    text-decoration: underline 2px solid #e22c38;
 
+}
+
+/*--------------Index Page Formatting----------------------*/
+
+.index-photo {
+    width: 35%;
+    height: auto;
+    float: right;
+    margin: 1em 5em;
+    border-radius: 1%;
+    border: 1px solid black;
+}
+
+.index-text {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Lora', serif;
+    margin: 3em;
 }
 
 /*--------------Mission Statement Formatting-----------------*/
@@ -94,14 +117,6 @@ iframe {
     overflow: hidden;
 }
 
-.book-lessons img {
-    float: right;
-    width: 40%;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 1%;
-    margin-top: 2%;
-}
 
 .book-lessons li {
     font-family: 'Lora', serif;
