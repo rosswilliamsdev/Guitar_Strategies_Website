@@ -125,10 +125,15 @@ iframe {
     margin-right: 23em;
 }
 
-.book-lessons-wrap li {
+.book-lessons-1,
+.book-lessons-2 {
     font-family: 'Lora', serif;
     font-size: 1.1em;
     text-align: center;
+}
+
+.policy {
+    display: block;
 }
 
 /*-------------------Education & Experience Formatting---------------------*/
