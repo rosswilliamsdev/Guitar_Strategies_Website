@@ -130,3 +130,19 @@ iframe {
     font-size: 1.1em;
     text-align: center;
 }
+
+/*-------------------Education & Experience Formatting---------------------*/
+.education-experience-content-wrap {
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.ed-exp-img {
+    width: 35%;
+    height: auto;
+    float: right;
+    margin: 1em 5em;
+    border-radius: 1%;
+    border: 1px solid black;
+}
