@@ -112,13 +112,21 @@ iframe {
 }
 
 /*--------------------Book Lessons Formatting----------------------*/
-.book-lessons {
+
+.book-lessons-1 {
+    float: left;
     text-align: center;
-    overflow: hidden;
+    margin-left: 23em;
 }
 
+.book-lessons-2 {
+    float: right;
+    text-align: center;
+    margin-right: 23em;
+}
 
-.book-lessons li {
+.book-lessons-wrap li {
     font-family: 'Lora', serif;
     font-size: 1.1em;
+    text-align: center;
 }
