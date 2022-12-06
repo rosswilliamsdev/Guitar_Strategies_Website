@@ -89,11 +89,11 @@ li {
 }
 
 .mission-statement img {
-    float: left;
+    display: inline-flex;
+    justify-content: flex-start;
     margin-right: 20px;
-    margin-left: -15%;
     margin-top: 1%;
-    width: 65%;
+    width: 45%;
     height: auto;
     border-radius: 1%;
 }
@@ -113,17 +113,6 @@ iframe {
 
 /*--------------------Book Lessons Formatting----------------------*/
 
-.book-lessons-1 {
-    float: left;
-    text-align: center;
-    margin-left: 23em;
-}
-
-.book-lessons-2 {
-    float: right;
-    text-align: center;
-    margin-right: 23em;
-}
 
 .book-lessons-1,
 .book-lessons-2 {
@@ -151,3 +140,6 @@ iframe {
     border-radius: 1%;
     border: 1px solid black;
 }
+
+/*-----------------Responsive Formatting----------------------*/
+@media
