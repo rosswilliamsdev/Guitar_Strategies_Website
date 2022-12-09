@@ -142,3 +142,11 @@ iframe {
 }
 
 /*-----------------Responsive Formatting----------------------*/
+
+@media only screen and (max-width: 800px) {
+    .education-experience-content-wrap {
+        text-align: center;
+        display: block;
+        justify-content: center;
+    }
+}
