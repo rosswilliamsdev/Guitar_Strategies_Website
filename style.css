@@ -149,4 +149,9 @@ iframe {
         display: block;
         justify-content: center;
     }
+
+    .youtube-embeds .bandcamp-embeds {
+        display: block;
+        overflow: hidden;
+    }
 }
