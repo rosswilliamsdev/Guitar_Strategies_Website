@@ -41,6 +41,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     margin: .5em auto;
+    overflow: visible;
 }
 
 nav a {
@@ -63,7 +64,7 @@ li {
 
 /*--------------Index Page Formatting----------------------*/
 
-.index-photo {
+.index-img {
     width: 35%;
     height: auto;
     float: right;
@@ -91,7 +92,6 @@ li {
 .mission-statement img {
     display: inline-flex;
     justify-content: flex-start;
-    margin-right: 20px;
     margin-top: 1%;
     width: 45%;
     height: auto;
@@ -125,14 +125,14 @@ iframe {
     display: block;
 }
 
-/*-------------------Education & Experience Formatting---------------------*/
-.education-experience-content-wrap {
+/*-------------------Experience Formatting---------------------*/
+.exp-content-wrap {
     font-family: 'Lora', serif;
     font-size: 1.1em;
     text-align: center;
 }
 
-.ed-exp-img {
+.exp-img {
     width: 35%;
     height: auto;
     float: right;
@@ -144,14 +144,31 @@ iframe {
 /*-----------------Responsive Formatting----------------------*/
 
 @media only screen and (max-width: 800px) {
-    .education-experience-content-wrap {
+    .exp-content-wrap {
         text-align: center;
         display: block;
         justify-content: center;
     }
 
-    .youtube-embeds .bandcamp-embeds {
-        display: block;
-        overflow: hidden;
+    .exp-img {
+        float: none;
+    }
+
+    .index-img {
+        float: none;
+        margin: 10px 0px 0px 150px;
+
+    }
+
+    .mission-statement {
+        margin: 2rem;
+    }
+
+    .index-text {
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 3.5em;
     }
 }
