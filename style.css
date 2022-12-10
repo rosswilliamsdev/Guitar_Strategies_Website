@@ -78,6 +78,7 @@ li {
     font-size: 1.3em;
     font-family: 'Lora', serif;
     margin: 3em;
+    line-height: 1.7em;
 }
 
 /*--------------Mission Statement Formatting-----------------*/
@@ -96,6 +97,10 @@ li {
     width: 45%;
     height: auto;
     border-radius: 1%;
+}
+
+.mission-statement p {
+    line-height: 1.8em;
 }
 
 
@@ -130,6 +135,7 @@ iframe {
     font-family: 'Lora', serif;
     font-size: 1.1em;
     text-align: center;
+    line-height: 2em;
 }
 
 .exp-img {
@@ -141,9 +147,17 @@ iframe {
     border: 1px solid black;
 }
 
+.exp-content-wrap li {
+    list-style-type: none;
+}
+
+.experience {
+    display: flow-root;
+}
+
 /*-----------------Responsive Formatting----------------------*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 811px) {
     .exp-content-wrap {
         text-align: center;
         display: block;
@@ -187,4 +201,17 @@ iframe {
     h1 {
         font-size: 3.5em;
     }
+
+    header {
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav li {
+        margin: .7em;
+    }
+
 }
