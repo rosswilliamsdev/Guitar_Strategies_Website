@@ -155,9 +155,9 @@ iframe {
     }
 
     .index-img {
+        display: flex;
+        margin: auto;
         float: none;
-        margin: 10px 0px 0px 150px;
-
     }
 
     .mission-statement {
