@@ -168,6 +168,22 @@ iframe {
         margin-top: 20px;
     }
 
+    iframe {
+        display: flex;
+        align-items: center;
+        margin: 2em auto;
+    }
+
+    .bandcamp-embeds,
+    .youtube-embeds {
+        display: block;
+    }
+
+    .youtube-vid {
+        width: 350px;
+        height: 300px;
+    }
+
     h1 {
         font-size: 3.5em;
     }
