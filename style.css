@@ -64,8 +64,12 @@ li {
 
 /*--------------Index Page Formatting----------------------*/
 
+.index-book-lessons {
+        text-decoration: underline 1.5px solid black;
+}
+
 .index-img {
-    width: 35%;
+    width: 32%;
     height: auto;
     float: right;
     margin: 1em 5em;
@@ -125,9 +129,16 @@ iframe {
     font-size: 1.1em;
     text-align: center;
 }
-
+.book-lessons-1 {
+    margin-left: 28%;
+    float: left;
+}
+.book-lessons-2 {
+    margin-right: 28%;
+    float: right;
+}
 .policy {
-    display: block;
+    text-decoration: underline 2px solid #e22c38
 }
 
 /*-------------------Experience Formatting---------------------*/
@@ -139,7 +150,7 @@ iframe {
 }
 
 .exp-img {
-    width: 35%;
+    width: 32%;
     height: auto;
     float: right;
     margin: 1em 5em;
@@ -157,7 +168,7 @@ iframe {
 
 /*-----------------Responsive Formatting----------------------*/
 
-@media only screen and (max-width: 811px) {
+@media only screen and (max-width: 820px) {
     .exp-content-wrap {
         text-align: center;
         display: block;
@@ -212,6 +223,10 @@ iframe {
 
     nav li {
         margin: .7em;
+    }
+    .book-lessons-1, .book-lessons-2 {
+     margin: auto;
+     float: none;
     }
 
 }
